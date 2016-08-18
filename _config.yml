@@ -71,5 +71,5 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/caofeilong/blog.git
+  repo: https://github.com/caofeilong/cflblog.git
   branch: gh-pages
