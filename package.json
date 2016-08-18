@@ -2,6 +2,9 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts":{
+    "deploy":" "
+  },
   "hexo": {
     "version": "3.2.2"
   },
@@ -16,6 +19,9 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-sass": "^0.2.0",
     "hexo-renderer-stylus": "^0.3.1",
+    "hexo-deployer-git": "^0.2.0",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
   }
 }
