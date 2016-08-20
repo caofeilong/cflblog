@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何将npm项目发布到npm社区
+title: 将项目发布到npm社区
 ---
 
 Q3 KPI fengui  npm项目创建记录

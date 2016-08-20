@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts":{
-    "deploy":" "
+    "deploy":"gitbook build ./gitbook --output= ./source/zk  "
   },
   "hexo": {
     "version": "3.2.2"
