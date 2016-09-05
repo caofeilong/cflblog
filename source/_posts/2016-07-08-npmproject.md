@@ -15,7 +15,8 @@ Q3 KPI fengui  npm项目创建记录
 ### 发布
 
 创建用户 `npm adduser`  <br>
-创建完用户之后，执行`npm publish ` 发布到npm社区 <br>
+登录用户 `npm  login `  
+创建完用户之后，执行`npm publish --tag 0.1.0` 发布到npm社区 <br>
 执行`npm install [项目名]` 安装依赖  <br>
 执行`npm unpublist[<@scope>/]<pkg>[@<version>] ` 卸载包 <br>
 
