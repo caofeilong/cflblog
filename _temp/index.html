@@ -1,0 +1,36 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cfltest</title>
+	<script>
+		function a(username){
+
+			 console.info(username);
+			 console.info(this);
+			 console.info(this.c)
+		}
+
+	  var b = {
+	  	a:a,
+	  	c:"ddd",
+	  }
+
+
+	  function c (){
+	  	let username="cfl";
+		b.a(username);	
+	  }
+	  c();
+	</script>
+</head>
+<body>
+	
+	<div>
+		lll
+	</div>
+</body>
+</html>
