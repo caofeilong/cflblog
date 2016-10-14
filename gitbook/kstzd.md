@@ -3,4 +3,4 @@
 
 
 
-![Alt text](/img/3.png)
+![Alt text](http://www.sxcfl.me/img/3.png)
