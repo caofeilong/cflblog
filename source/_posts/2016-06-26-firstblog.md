@@ -11,5 +11,9 @@ __进取･坚韧･开放･影响__
 
 
 
+我的工位
+
+![Alt text](/img/4.jpg)
+
 
 [博客地址：](http://www.sxcfl.me)<http://www.sxcfl.me> 
