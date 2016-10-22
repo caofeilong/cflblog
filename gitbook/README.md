@@ -14,13 +14,13 @@
 
 <script type="text/javascript">
 function timer(){
-    var  endDate = new Date("2016-10-15 00:00").getTime();
+    var  endDate = new Date("2017-04-15 00:00").getTime();
     var cuDate=new Date().getTime();
     var  day=parseInt((endDate-cuDate)/1000/60/60/24);
     var  hour=parseInt((endDate-cuDate)/1000/60/60%24);
     var  second=parseInt((endDate-cuDate)/1000/60%60);
     var  seconds=parseInt((endDate-cuDate)/1000%60);
-    document.getElementById("countdown").innerHTML="距离10月15日考试还有"+day+"天"+hour+"小时"+second+"分钟"+seconds+"秒";
+    document.getElementById("countdown").innerHTML="距离17年4月份考试还有"+day+"天"+hour+"小时"+second+"分钟"+seconds+"秒";
 }
 timer();
 setInterval(timer,1000);
