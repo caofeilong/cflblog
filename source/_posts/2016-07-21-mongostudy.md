@@ -15,6 +15,7 @@ db.collectionname.find({KEY:VALUE}); //条件查询
 db.collectionname.find({KEY:RegExp})//模糊查询
 db.collectionname.find({KEY:{$in:[VALUES]}}) //$in 查询
 db.collectionname.find({key:{$gte:VALUE,$lte:VALUE}})//范围查询$gt大于 $lt小于 $ne不等于
+db.collectionname.find().sort({KEY:1}) //排序查询
 db.collectionname.find({$or:[{KEY:VALYE}]})//$or
 db.collectionname.find().limit(5).skip(2)//limit(显示的调试)  skip(跳过的条数)
 db.collectionname.sort({KEY:1}); //1正序 -1 倒序
