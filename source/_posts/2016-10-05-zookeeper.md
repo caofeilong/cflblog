@@ -3,15 +3,15 @@ layout: post
 title: zookeeper 学习
 ---
 
-
-#  什么是zookeeper
-
 Zookeeper是一个开放源码的分布式服务协调组件，他解决的分布式数据一致性问题，提供了顺序一致性、原子性、单一视图、可靠性、实时性等。
 ZooKeeper的核心实现算法 Zab，就是解决了分布式系统下数据如何在多个服务之间保持同步问题的。
 
-# zookeeper 安装
 
-# zookeeper 服务启动
+### zookeeper  安装
+
+[下载](http://www.apache.org/dyn/closer.cgi/zookeeper/)
+
+### zookeeper 服务启动
 
 ```
 
@@ -22,7 +22,7 @@ ZooKeeper的核心实现算法 Zab，就是解决了分布式系统下数据如�
 
 ```
 
-# zookeeper 节点操作
+### zookeeper 节点操作
 
 启动客户端 ./zkCli.sh
 
@@ -37,7 +37,7 @@ rmr  /nodeName 将创建的zk目录以及它下面的子目录都删除
 ```
 
 
-# 使用get 命令获取内容时
+### 使用get 命令获取内容时
 
 ```
 czxid. 节点创建时的zxid.
@@ -53,11 +53,9 @@ numChildren. 子节点个数.
 ```
 
 
-# node 使用 zookeeper 
+### node 使用 zookeeper 
 
 使用库 **node-zookeeper-client**
-
-### 例子
 
 ```javascript
 
