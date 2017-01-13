@@ -56,8 +56,8 @@ db.revokeRolesFromUser('cmsAdmin',[{role:'dbAdmin',db:'cms'}])// 撤销用户角
 db.grantRolesToUser('cmsAdmin',[{role:'dbAdmin',db:'cms'}]) //授予用户角色
 db.changeUserPassword('cmsAdmin','cmsAdmin456') //修改密码
 db.dropAllUsers()  // 删除与某数据库相关的所有用户。
-db.dropUser()  // 删除用户
-db.getUser() //返回一个指定用户的信息。
+db.dropUser('username')  // 删除用户
+db.getUser('username') //返回一个指定用户的信息。
 db.getUsers()  // 返回与某数据库相关的所有用户的信息。
 
 ```
