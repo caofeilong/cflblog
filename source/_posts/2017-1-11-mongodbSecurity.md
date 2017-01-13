@@ -1,8 +1,8 @@
 ---
-layout: post
 title: mongodb 基于角色的访问控制 
-tags:mongdb
+tags: [mongdb]
 ---
+
 MongoDB 提供各种特性，如身份验证、访问控制、加密，来确保MongoDB的部署。
 
 ## Manger Users and Roles
