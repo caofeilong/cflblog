@@ -7,7 +7,7 @@ MongoDB 提供各种特性，如身份验证、访问控制、加密，来确保
 
 ## Manger Users and Roles
 
-#### 创建管理员用户
+#### 创建管具有管理用户角色的用户
 
 ```
 use admin
