@@ -2,8 +2,8 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "scripts":{
-    "deploy":"gitbook build ./gitbook --output= ./source/zk  "
+  "scripts": {
+    "deploy": "gitbook build ./gitbook --output= ./source/zk  "
   },
   "hexo": {
     "version": "3.2.2"
@@ -22,6 +22,5 @@
     "hexo-deployer-git": "^0.2.0",
     "hexo-server": "^0.2.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
